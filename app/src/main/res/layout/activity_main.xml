@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/my_nanodegree_apps"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/project_spotify_streamer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_spotify_streamer"
+        android:onClick="projectClick"
+    />
+
+    <Button
+        android:id="@+id/project_scores_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_scores_app"
+        android:onClick="projectClick"
+    />
+
+    <Button
+        android:id="@+id/project_library_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_library_app"
+        android:onClick="projectClick"
+    />
+
+    <Button
+        android:id="@+id/project_build_it_bigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_build_it_bigger"
+        android:onClick="projectClick"
+    />
+
+    <Button
+        android:id="@+id/project_xyz_reader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_xyz_reader"
+        android:onClick="projectClick"
+    />
+
+    <Button
+        android:id="@+id/project_captstone_my_own_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_captstone_my_app"
+        android:onClick="projectClick"
+    />
+
+</LinearLayout>
